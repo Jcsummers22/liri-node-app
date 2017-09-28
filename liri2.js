@@ -93,7 +93,7 @@ function useApp() {
 				var request = require('request');
 				var movie = user.movie;
 
-				var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json&tomatoes=true"
+				var queryURL = "http://www.omdbapi.com/?t=40e9cece" + movie + "&y=&plot=short&r=json&tomatoes=true"
 
 				request(queryURL, function (error, response, body) {
 					if (!error && response.statusCode == 200) {
