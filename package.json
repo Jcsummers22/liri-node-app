@@ -2,7 +2,7 @@
   "name": "yes",
   "version": "1.0.0",
   "description": "liri node app",
-  "main": "index.js",
+  "main": "keys.js",
   "scripts": {
     "test": "go"
   },
@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/Jcsummers22/liri-node-app#readme",
   "dependencies": {
-    "node-spotify-api": "^1.0.7"
+    "fs": "0.0.2",
+    "node-spotify-api": "^1.0.7",
+    "inquirer": "^1.1.0",
+    "request": "^2.72.0",
+    "twitter": "^1.3.0"
   },
   "devDependencies": {}
 }
